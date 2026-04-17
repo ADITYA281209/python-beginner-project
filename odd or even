@@ -1,8 +1,9 @@
 
 Number = int(input("Enter any number:"))
 if(Number%2==0):
-    print("Even")
-    
+    print("Your number is even")
+
 else: 
-    print("odd")
-    
+    print("Your number is odd")
+
+
