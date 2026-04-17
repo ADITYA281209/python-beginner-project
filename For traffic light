@@ -1,0 +1,14 @@
+
+Signal = input("What is the color of the traffic light?: ")
+#Signal = str.capitalize(Signal)
+if(Signal=="red"):
+    print("stop")
+
+elif(Signal=="yellow"):
+    print("start your engine")
+
+elif(Signal=="green"):
+    print("you can go")
+else:
+    print("invalid traffic light color")
+    
